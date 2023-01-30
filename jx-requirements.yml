@@ -27,7 +27,7 @@ spec:
       email: ""
       enabled: false
       production: false
-  repository: nexus.nmgr.iknowplus.co.th
+  repository: https://nexus.nmgr.iknowplus.co.th
   secretStorage: local
   vault: {}
   webhook: lighthouse
