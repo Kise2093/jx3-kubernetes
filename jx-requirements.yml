@@ -10,9 +10,9 @@ spec:
     devEnvApprovers:
     - todo
     environmentGitOwner: todo
-    gitKind: github
-    gitName: github
-    gitServer: https://github.com
+    gitKind: gitlab
+    gitName: gitlab
+    gitServer: https://gitlab.nmgr.iknowplus.co.th
     provider: kubernetes
     registry: ghcr.io
   environments:
@@ -20,14 +20,14 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "jenkinsx.nmgr.iknowplus.co.th"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
-  repository: bucketrepo
+  repository: nexus.nmgr.iknowplus.co.th
   secretStorage: local
   vault: {}
   webhook: lighthouse
